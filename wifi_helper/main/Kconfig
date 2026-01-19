@@ -1,0 +1,9 @@
+menu "App Configuration"
+
+    config APP_NAME
+        string "Application Name"
+        default "weather-app"
+        help
+            The name/tag used for logging in the application.
+
+endmenu

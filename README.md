@@ -11,6 +11,9 @@ This repository contains various examples demonstrating different features and p
 ### [buzzer-test](buzzer-test/)
 Buzzer test example demonstrating basic PWM control and audio output.
 
+### [wifi_helper](wifi_helper/)
+WiFi helper component example for ESP32 network connectivity.
+
 ## Prerequisites
 
 - [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) installed and configured

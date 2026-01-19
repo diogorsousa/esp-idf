@@ -1,0 +1,15 @@
+menu "WiFi Helper Configuration"
+
+    config WIFI_HELPER_SSID
+        string "WiFi SSID"
+        default "myssid"
+        help
+            SSID (network name) for the WiFi network to connect to.
+
+    config WIFI_HELPER_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+        help
+            WiFi password (WPA or WPA2) for the network.
+
+endmenu
