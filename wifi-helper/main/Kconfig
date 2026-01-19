@@ -2,7 +2,7 @@ menu "App Configuration"
 
     config APP_NAME
         string "Application Name"
-        default "weather-app"
+        default "wifi-helper"
         help
             The name/tag used for logging in the application.
 
