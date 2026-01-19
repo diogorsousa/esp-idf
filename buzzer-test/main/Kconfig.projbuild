@@ -1,0 +1,23 @@
+menu "Buzzer Configuration"
+
+    config BUZZER_GPIO_PIN
+        int "Buzzer GPIO Pin"
+        default 21
+        help
+            GPIO pin number connected to the buzzer.
+
+    config BUZZER_FREQUENCY
+        int "Buzzer Frequency (Hz)"
+        default 1046
+        range 20 40000
+        help
+            Frequency of the PWM signal in Hertz.
+
+    config BUZZER_DUTY_CYCLE
+        int "Buzzer Duty Cycle (%)"
+        default 50
+        range 0 100
+        help
+            Duty cycle percentage (0-100).
+
+endmenu
